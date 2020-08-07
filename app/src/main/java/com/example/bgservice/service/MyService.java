@@ -65,7 +65,7 @@ public class MyService extends Service {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Intent intent = new Intent("com.example.bgservice");
+		Intent intent = new Intent("com.example.bgservice.service");
 		sendBroadcast(intent);
 	}
 }
